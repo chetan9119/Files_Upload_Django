@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summary Report</title>
+</head>
+<body>
+    <h1>Summary Report</h1>
+    {{ summary.data|safe }}
+    <br>
+    <br>
+    <a href = "{% url 'upload' %}">Back</a>
+</body>
+</html>
